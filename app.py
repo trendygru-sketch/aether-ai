@@ -1,4 +1,10 @@
 import streamlit as st
+st.set_page_config(
+    page_title="Aether AI",
+    page_icon="🤖",
+    layout="centered",
+    initial_sidebar_state="collapsed",
+)
 import sqlite3
 import requests
 from datetime import date, datetime, timedelta
